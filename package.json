@@ -10,12 +10,10 @@
     "deploy": "npx @serverless/cli"
   },
   "dependencies": {
-    "@azure/msal-browser": "^2.22.1",
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.5.1",
     "@reduxjs/toolkit": "^1.8.0",
-    "@xboxreplay/xboxlive-auth": "^4.0.0",
     "axios": "^0.26.1",
     "classnames": "^2.3.1",
     "ethers": "^5.6.0",

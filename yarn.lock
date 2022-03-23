@@ -3062,24 +3062,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@azure/msal-browser@npm:^2.22.1":
-  version: 2.22.1
-  resolution: "@azure/msal-browser@npm:2.22.1"
-  dependencies:
-    "@azure/msal-common": ^6.1.0
-  checksum: 8e329c14723390a7462e186b27c3ba8f10250d3f39aa4c627604df3519342b7a3dcf8db1bd415ccb11e992051269f5009d0fe72d9d00a9ac01959663509df170
-  languageName: node
-  linkType: hard
-
-"@azure/msal-common@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "@azure/msal-common@npm:6.1.0"
-  dependencies:
-    debug: ^4.1.1
-  checksum: 5fd6617fb9ceaf8f93719c5596a7f0bfc3b4dd427bf11d9f18759b101f7a0bef46bce371ad38a5726185e8520f5ac793e4fd283e84948467ac8695a15205d429
-  languageName: node
-  linkType: hard
-
 "@babel/code-frame@npm:7.12.11":
   version: 7.12.11
   resolution: "@babel/code-frame@npm:7.12.11"
@@ -4629,15 +4611,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xboxreplay/xboxlive-auth@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "@xboxreplay/xboxlive-auth@npm:4.0.0"
-  dependencies:
-    axios: ^0.21.1
-  checksum: 9c2eb9eec4157c7123e9fdc41b75b8e021e07040c1894eb17265006808317199ef568badc0a97eeef1ba2e0544db00f8e3bf31929da34f6038e0d7ed44d2e35f
-  languageName: node
-  linkType: hard
-
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -4989,15 +4962,6 @@ __metadata:
   version: 4.4.1
   resolution: "axe-core@npm:4.4.1"
   checksum: ad14c5b71059dc3d24ef2519b8cd96e98b4a572379396201ce449d1c4262181821d6ca9550df65b22371faf06d28bbe94d391fe5675f2a08e6550f7b5da8416d
-  languageName: node
-  linkType: hard
-
-"axios@npm:^0.21.1":
-  version: 0.21.4
-  resolution: "axios@npm:0.21.4"
-  dependencies:
-    follow-redirects: ^1.14.0
-  checksum: 44245f24ac971e7458f3120c92f9d66d1fc695e8b97019139de5b0cc65d9b8104647db01e5f46917728edfc0cfd88eb30fc4c55e6053eef4ace76768ce95ff3c
   languageName: node
   linkType: hard
 
@@ -6597,7 +6561,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.14.0, follow-redirects@npm:^1.14.8":
+"follow-redirects@npm:^1.14.8":
   version: 1.14.9
   resolution: "follow-redirects@npm:1.14.9"
   peerDependenciesMeta:
@@ -10118,7 +10082,6 @@ __metadata:
     "@aws-cdk/aws-route53-targets": ^1.148.0
     "@aws-cdk/aws-s3-deployment": ^1.148.0
     "@aws-cdk/core": ^1.119.0
-    "@azure/msal-browser": ^2.22.1
     "@emotion/react": ^11.8.2
     "@emotion/styled": ^11.8.1
     "@mui/material": ^5.5.1
@@ -10127,7 +10090,6 @@ __metadata:
     "@sls-next/lambda-at-edge": 3.2.0
     "@types/node": 17.0.21
     "@types/react": 17.0.40
-    "@xboxreplay/xboxlive-auth": ^4.0.0
     aws-cdk: ^1.119.0
     axios: ^0.26.1
     classnames: ^2.3.1
